@@ -1,0 +1,22 @@
+@keyframes grow {
+    0% {
+      background: red;
+      width: 100px;
+      transform: rotateX(0deg);
+    }
+    31% {
+      background: orange;
+      width: 400px;
+      transform: rotateX(360deg);
+    }
+    100% {
+      background: rgb(8, 97, 130);
+      width: 100px;
+      transform: rotateX(0deg);
+    }
+  }
+  
+  .wait {
+    animation-name: grow;
+    animation-duration: 2s;
+  }
